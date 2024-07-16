@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class demotest {
  public static WebDriver driver ;
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
 		
@@ -16,6 +16,8 @@ public class demotest {
 		 driver = new ChromeDriver(options);
 		 
 		 driver.get("https://community2.cloud-2.automationanywhere.digital/#/login");
+		 Thread.sleep(5000);
+		 Thread.sleep(6000);
 		 
 
 	}
