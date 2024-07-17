@@ -12,6 +12,14 @@ public class demotest {
 		options.addArguments("--ignore-certificate-errors");
 		options.addArguments("--start-maximized");
 		options.addArguments("--disable-gpu");
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--ignore-certificate-errors");
+		options.addArguments("--start-maximized");
+		options.addArguments("--disable-gpu");
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--ignore-certificate-errors");
+		options.addArguments("--start-maximized");
+		options.addArguments("--disable-gpu");
 		
 		 driver = new ChromeDriver(options);
 		 
