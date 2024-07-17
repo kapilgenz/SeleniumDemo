@@ -14,6 +14,7 @@ public class demotest {
 		options.addArguments("--disable-gpu");
 		
 		 driver = new ChromeDriver(options);
+		 System.out.println("conflict");
 		 
 		 driver.get("https://community2.cloud-2.automationanywhere.digital/#/login");
 		 
